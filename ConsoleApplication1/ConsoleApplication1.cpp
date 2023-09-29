@@ -10,19 +10,12 @@ using namespace std;
 int main()
 {
 
-    int power = 100;
+    float health = 100.f;
+    float damage = 2.f;
 
-    float health = 6.7f;
+    std::cout << "The reamaining health is: " << health - damage;
 
-    double mana = 3.2;
-
-    bool isDead = false;
-
-    string playerName = "Geoff";
-
-
-
-    std::cout << "The name of my character is: " <<playerName;
+    
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
