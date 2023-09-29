@@ -13,10 +13,29 @@ int main()
     float health = 100.f;
     float damage = 2.f;
 
-    std::cout << "The reamaining health is: " << health - damage;
+    float remainingHealth = health - damage;
+
+    int a = 7;
+    int b = 10;
+
+    int subtraction = a - b;
+
+    //Printing the result
+    //std::cout << "The subtraction of a and b is: " << subtraction;
 
     
+    
 }
+
+void calculateTwoNumbers() {
+    int a = 7;
+    int b = 10;
+
+    int subtraction = a - b;
+
+    std::cout << "The subtraction of a and bb is: " << subtraction;
+}
+
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
