@@ -28,21 +28,29 @@ int subtractNumbers4(int a, int b) {
 
 int main()
 {
+    switch (a) {
 
-    float health = 100.f;
-    float damage = 2.f;
+    case 1:
+        std::cout << "The value is 1";
+        break;
 
-    float remainingHealth = health - damage;
+    case 2:
+        std::cout << "The value is 1";
+        break;
 
-    int a = 7;
-    int b = 10;
+    case 3:
+        std::cout << "The value is 1";
+        break;
 
-    int subtraction = subtractNumbers(25, 13);
+    case 4:
+        std::cout << "The value is 1";
+        break;
 
-    //Printing the result
-    std::cout << "The subtraction of a and b is: " << subtraction;
+    case 5:
+        std::cout << "The value is 1";
+        break;
 
-  
+    }
         
 }
 
