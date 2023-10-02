@@ -12,9 +12,19 @@ void someFunction() {}
 int main()
 {
 
-    for (int i = 0; i < 5; i++) {
+    /*for (int i = 0; i < 5; i++) {
 
-        std::cout << "Printed from Loop" << endl;
+        std::cout << "the i value is" << i << endl;
+    }*/
+
+    int i = 0;
+
+    while (i < 10) {
+    
+        std::cout << "the i value is" << i << endl;
+
+        i++;
+
     }
         
 }
