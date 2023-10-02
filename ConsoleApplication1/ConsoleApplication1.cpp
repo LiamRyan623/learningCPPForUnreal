@@ -7,49 +7,14 @@
 using namespace std;
 
 // Function that doesn't return a value and takes no params
-void subtractNumbers1() {};
-
-int subtractNumbers2() {
-    return 0;
-};
-
-void subtractNumbers3(int a, int b) {};
-
-int subtractNumbers4(int a, int b) {
-   
-    int subtraction = a - b;
-
-   // std::cout << "The subtraction of a and b is: " << subtraction;
-
-    return subtraction;
-
-}
-
+void someFunction() {}
 
 int main()
 {
-    switch (a) {
 
-    case 1:
-        std::cout << "The value is 1";
-        break;
+    for (int i = 0; i < 5; i++) {
 
-    case 2:
-        std::cout << "The value is 1";
-        break;
-
-    case 3:
-        std::cout << "The value is 1";
-        break;
-
-    case 4:
-        std::cout << "The value is 1";
-        break;
-
-    case 5:
-        std::cout << "The value is 1";
-        break;
-
+        std::cout << "Printed from Loop" << endl;
     }
         
 }
